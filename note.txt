@@ -1,0 +1,4 @@
+migration:
+  migrate -database mysql://root:dbpass@/hackernews -path internal/pkg/db/migrations/mysql up
+  migrate -database mysql://root:WhateverPassword@/hackernews -path internal/pkg/db/migrations/mysql up
+
